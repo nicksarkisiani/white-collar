@@ -54,6 +54,7 @@ body {
     display: flex;
     align-items: center;
     font-size: 18px;
+    text-transform: capitalize;
 }
 
 .nav-header ul{
