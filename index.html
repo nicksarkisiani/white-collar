@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-    <header>
-        <div class="container">
+    <header class="parent-container">
+        <div class="container header-container">
             <div class="logo-header">
                 <a href="#"><img src="./assets/images/Logo.svg" alt="Logo"></a>
             </div>
@@ -18,18 +18,22 @@
                 <ul>
                     <li><a href="#" class="nav-link">Home</a></li>
                     <li><a href="#" class="nav-link">About us</a></li>
-                    <li><a href="#" class="nav-link">Pages</a></li>
+                    <li><select name="pages" id="select-pages" class="nav-select">
+                        <option value="Pages" selected>Pages</option>
+                    </select></li>
                     <li><a href="#" class="nav-link">Services</a></li>
                     <li><a href="#" class="nav-link">Blog</a></li>
                     <li><a href="#" class="nav-link">Contact us</a></li>
-                    <li><button>Get consulting</button></li>
+                    <li>
+                        <button class="nav-button cabin-font"><a href="#">Get consulting</a></button>
+                    </li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <main>
-        <section class="hero-section">
+        <section class="hero-section parent-container">
             <div class="container">
             
             </div>
@@ -40,7 +44,7 @@
 
         </section>
         
-        <section class="about-section">
+        <section class="about-section parent-container">
             <div class="container">
 
             </div>
