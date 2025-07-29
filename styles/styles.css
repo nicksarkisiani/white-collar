@@ -9,6 +9,7 @@ body, .inter-font {
 
 body {
     overflow-x: hidden;
+    height: 500vh;
 }
 
 .cabin-font {
@@ -95,15 +96,12 @@ body {
 
 
 .hero-section-container {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     gap: 41px;
 }
 
 .hero-title {
-    display: flex;
-    flex-direction: column;
+
     gap: 18px;
     font-size: 18px;
     align-items: center;
@@ -137,8 +135,6 @@ body {
     max-width: 300px;
     width: 100%;
     height: 267px;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 37px;
@@ -146,8 +142,6 @@ body {
 }
 
 .benefit-card-title {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     gap: 16px;
     text-align: center;
@@ -160,8 +154,6 @@ body {
 }
 
 .benefit-card-icons {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     gap: 10px;
     color: white;
@@ -218,15 +210,11 @@ body {
 .presentation-content {
     max-width: 510px;
     width: 100%;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     gap: 47px;
 }
 
 .presentation-title {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     text-align: center;
     gap: 21px;
@@ -249,4 +237,72 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.about-section {
+    align-items: center;
+    margin-top: 100px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}  
+
+.about-container {
+    align-items: center;
+    gap: 41px;
+}
+
+.about-title {
+    align-items: center;
+    gap: 16px;
+    font-size: 16px;
+    color: #37393F;
+}
+
+.about-title h2 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.about-images {
+    display: flex;
+    gap: 31px;
+}
+
+.expert-card {
+    width: 386px;
+    height: 532px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.expert-title {
+    position: relative;
+    z-index: 1;
+    width: 341px;
+    height: 114px;
+    background-color: white;
+    color: #7D7D7D;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 22px;
+    gap: 5px;
+}
+
+.expert-title h3 {
+    color: #37393F;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.expert-card img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
 }
