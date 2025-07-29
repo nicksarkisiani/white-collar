@@ -7,6 +7,10 @@ body, .inter-font {
     font-style: normal;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .cabin-font {
     font-family: "Cabin", sans-serif;
   font-optical-sizing: auto;
@@ -182,4 +186,67 @@ body, .inter-font {
 
 .purple-circle {
     background-color: #6B77E5;
+}
+
+.full-size-container {
+    max-width: 1920px;
+    width: 100%;
+}
+
+.presentation-section {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentation-container {
+    position: relative;
+    height: 557px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentation-section img {
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.presentation-content {
+    max-width: 510px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 47px;
+}
+
+.presentation-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 21px;
+    font-size: 18px;
+    color: #37393F;
+    font-weight: 500;
+}
+
+.presentation-title h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.presentation-icon {
+    width: 67px;
+    height: 67px;
+    font-size: 22px;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
