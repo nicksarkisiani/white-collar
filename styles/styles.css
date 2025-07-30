@@ -9,7 +9,6 @@ body, .inter-font {
 
 body {
     overflow-x: hidden;
-    height: 500vh;
 }
 
 .cabin-font {
@@ -205,6 +204,8 @@ body {
     left: 0;
     position: absolute;
     z-index: -1;
+    height: -webkit-fill-available;
+    width: 100%;
 }
 
 .presentation-content {
@@ -241,7 +242,7 @@ body {
 
 .about-section {
     align-items: center;
-    margin-top: 100px;
+    margin: 100px 0;
 }
 
 .flex-column {
@@ -305,4 +306,6 @@ body {
     top: 0;
     left: 0;
     z-index: 0;
+    width: 100%;
+    height: -webkit-fill-available;
 }
